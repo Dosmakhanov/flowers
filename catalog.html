@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог букетов</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="main.html" class="logo">
+      Цветики<span>букетики</span>
+    </a>
+
+    <nav class="main-nav">
+      <a href="main.html">Главная</a>
+      <a href="catalog.html" class="active">Каталог</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main class="catalog-page">
+
+  <section class="catalog-head">
+    <div class="catalog-intro">
+      <h1>Каталог букетов</h1>
+      <p>Подборка авторских композиций для особых случаев</p>
+    </div>
+
+    <div class="catalog-filters">
+      <button class="filter-btn active" data-filter="all">Все</button>
+      <button class="filter-btn" data-filter="roses">Розы</button>
+      <button class="filter-btn" data-filter="tulips">Тюльпаны</button>
+      <button class="filter-btn" data-filter="peonies">Пионы</button>
+      <button class="filter-btn" data-filter="lilies">Лилии</button>
+      <button class="filter-btn" data-filter="chrysanthemums">Хризантемы</button>
+      <button class="filter-btn" data-filter="orchids">Орхидеи</button>
+      <button class="filter-btn" data-filter="hydrangeas">Гортензии</button>
+    </div>
+  </section>
+
+  <section class="products catalog-products">
+    <div class="flowers">
+
+      <div class="card" data-category="roses">
+        <h3>Розы</h3>
+        <img src="images/redroses.jpeg" alt="Красные розы">
+        <p>Нестареющая классика</p>
+        <div class="price">16 990 ₸</div>
+        <a class="buy-btn" href="https://wa.me/77777777777" target="_blank">Купить</a>
+      </div>
+
+      <div class="card" data-category="chrysanthemums">
+        <h3>Хризантемы</h3>
+        <img src="images/chrysanthemums.jpeg" alt="Хризантемы">
+        <p>Нежные и ароматные</p>
+        <div class="price">16 990 ₸</div>
+        <a class="buy-btn" href="https://wa.me/77777777777" target="_blank">Купить</a>
+      </div>
+
+      <div class="card" data-category="tulips">
+        <h3>Тюльпаны</h3>
+        <img src="images/tulips.jpeg" alt="Тюльпаны">
+        <p>Весенний букет</p>
+        <div class="price">10 990 ₸</div>
+        <a class="buy-btn" href="https://wa.me/77777777777" target="_blank">Купить</a>
+      </div>
+
+      <div class="card" data-category="peonies">
+        <h3>Пионы</h3>
+        <img src="images/peonies.jpeg" alt="Пионы">
+        <p>Нежные и ароматные</p>
+        <div class="price">18 990 ₸</div>
+        <a class="buy-btn" href="https://wa.me/77777777777" target="_blank">Купить</a>
+      </div>
+
+      <div class="card" data-category="hydrangeas">
+        <h3>Гортензии</h3>
+        <img src="images/hydrangeas.jpeg" alt="Гортензии">
+        <p>Красивые и галантные</p>
+        <div class="price">12 990 ₸</div>
+        <a class="buy-btn" href="https://wa.me/77777777777" target="_blank">Купить</a>
+      </div>
+
+      <div class="card" data-category="orchids">
+        <h3>Орхидеи</h3>
+        <img src="images/orchids.jpeg" alt="Орхидеи">
+        <p>Чувственные и выразительные</p>
+        <div class="price">11 990 ₸</div>
+        <a class="buy-btn" href="https://wa.me/77777777777" target="_blank">Купить</a>
+      </div>
+
+      <div class="card" data-category="lilies">
+        <h3>Лилии</h3>
+        <img src="images/whitelillies.jpeg" alt="Белые лилии">
+        <p>Белые лилии в букете</p>
+        <div class="price">13 990 ₸</div>
+        <a class="buy-btn" href="https://wa.me/77777777777" target="_blank">Купить</a>
+      </div>
+
+    </div>
+
+    <div class="catalog-end">
+      <p>Не нашли подходящий букет?</p>
+      <a href="contacts.html">Свяжитесь с нами — подберём индивидуально</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2025 Цветочный магазин
+</footer>
+
+<script src="catalog.js"></script>
+
+</body>
+</html>
